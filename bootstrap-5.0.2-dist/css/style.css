@@ -1,0 +1,545 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+		font-family: cursive;
+	}
+	img{
+		max-width: 100%;
+	}
+	a{
+		text-decoration: none;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6{
+		margin-bottom: 0px;
+		color: #4d10ea;
+	}
+	ul{
+		padding-left: 0px;
+		margin-bottom: 0px;
+	}
+	.lets-start .start{
+		background-color: #4D10EA;
+		padding: 100px 60px;
+		border-bottom-right-radius: 50%;
+	}
+	.lets-start .start h1{
+		color: #fff;
+		padding: 60px 0px;
+		font-size: 65px;
+		margin-bottom: 0px;
+		
+	}
+	.lets-start .move-forward{
+		background-color: #4D10EA;
+		margin: auto;
+		margin: 75px 0px;
+		border-radius: 50%;
+	}
+	.lets-start .move-forward ul{
+		text-align: center;
+		margin-bottom: 0px;
+
+	}
+	.lets-start .move-forward ul li{
+		display: inline-block;
+		padding: 40px 0px;
+	}
+	.lets-start .move-forward ul li .fas{
+		color: #fff;
+		text-align: center;
+		font-size: 75px;
+	}
+	.email .enter-email{
+		padding: 20px 0px;
+	}
+	.email .enter-email input{
+		width: 100%;
+		font-size: 30px;
+		border: 2px solid #5656ff;
+		border-radius: 10px;
+		padding: 15px;
+		outline: none;
+	}
+	.email .move-forward {
+		margin: 30px;
+	}
+	.email .enter-email h1{
+		margin-bottom: 0px;
+		color: #1459ff;
+		padding-top: 10px;
+	}
+	.email .enter-email h1 a{
+		color: #1459ff;
+
+	}
+	.email .move-forward ul li{
+		padding: 25px 0px;
+	}
+
+	/*Dashboard Page starts here*/
+	.dashboard .dashboard-head {
+		background-color: #4D10EA;
+	}
+	.dashboard .dashboard-head .dashboard-head-inner{
+		background-color: #ffffff;
+		text-align: center;
+		border-top-left-radius: 240px;
+		border-top-right-radius: 240px;
+
+	}
+	.dashboard .dashboard-head .dashboard-head-inner img{
+		padding: 0px 100px;
+    	margin-top: -20px;
+	}
+	.dashboard .dashboard-head .dashboard-head-inner .head-img img{
+		padding: 0px;
+		margin-top: 0px;
+	}
+	.dashboard .dashboard-head .setup-bank-head .setup-bank img{
+		padding: 30px;
+	}
+	.dashboard .dashboard-head .dashboard-head-inner .comapny-head img{
+		padding: 0px 50px;
+		margin-top: 0px;	
+	}
+	.dashboard .dashboard-head .dashboard-head-inner .category-head img{
+		padding: 0px;
+	}
+	.dashboard .dashboard-head .dashboard-head-inner.team-head{
+		padding: 0px 75px;	
+	}
+	@media screen and (max-width: 991px){
+		.dashboard .dashboard-head .dashboard-head-inner.team-head{
+			padding: 10px 20px;
+		}
+	}
+	.dashboard .dashboard-head{
+		padding-top: 10px;
+	}
+	.dashboard .dashboard-head .dashboard-head-inner .fas, .far{
+		font-size: 48px;
+		color: #4D10EA;
+	}
+	.dashboard .dashboard-head .dashboard-head-inner .fas{
+		padding-top: 15px;
+	}
+	.dashboard .dashboard-head .dashboard-head-inner h1{
+		color: #4D10EA;
+		margin-bottom: 0px;
+	}
+	.dashboard .balance-in-out{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 135px 0px 40px;
+	}
+	.dashboard .balance-in-out .balance-in, .balance-out{
+		text-align: center;
+		color: #ffffff;
+		background-color: #4D10EA;
+		border-radius: 50px;
+	}
+	.dashboard .balance-in-out .balance-in h1, .balance-out h1{
+		padding: 50px 0px;
+		margin-bottom: 0px;
+		color: #fff;
+	}
+	.dashboard .balance-in-out .balance-in h3, .balance-out h3{
+		padding: 50px 0px;
+		margin-bottom: 0px;
+		color: #fff;
+	}
+	.dashboard .balance-in-out .balance-in h2, .balance-out h2{
+			padding: 50px 0px 20px;
+			color: #fff;
+	}
+	.dashboard .dashboard-in-out{
+		border-bottom: 5px solid #4d10ea;
+	}
+	.dashboard .last-transaction-details {
+		padding: 15px;
+		padding-bottom: 250px;
+	}	
+	.dashboard .last-transaction-details .transaction h1{
+		color: #4d10ea;
+	}
+	.dashboard .last-transaction-details .transaction ul{
+		display: flex;
+		justify-content: space-between;
+		padding-top: 10px;
+	}
+	.dashboard .last-transaction-details .transaction ul li{
+		display: inline-block;
+		color: #4d10ea;
+		font-weight: bold;
+	}
+	.dashboard .last-transaction-details .transaction ul li:nth-child(4){
+		padding-right: 45px;
+	}
+	.dashboard .last-transaction-details .transaction ul li:nth-child(1) span{
+		padding-right: 10px;
+	}
+	.dashboard .payee-name{
+		display: flex;
+		padding-top: 20px;
+		justify-content: space-between;
+	}
+	.dashboard .payee-name .payee-name-category{
+		color: #4d10ea;
+	}
+	.dashboard .payee-name .payee-in-out ul li{
+		display: inline-block;
+	}
+	.dashboard .payee-name .payee-in-out ul {
+		display: flex;
+		justify-content: space-around;
+	}
+	.dashboard .footer{
+		background-color: #4d10ea;
+	}
+	.dashboard .footer .footer-icons .footer-icon, .footer-icon-plus .fas{
+		color: #ffffff;
+		font-size: 48px;
+	}
+	.dashboard .footer .footer-icons{
+		display: flex;
+		justify-content: space-around;
+
+	}
+	.dashboard .footer .footer-icons .footer-icon img{
+		width: 25%;
+		margin: auto;
+		margin-top: -35px;
+	}
+	.dashboard .footer .footer-icons .footer-icon{
+		text-align: center;
+	}
+	.dashboard .footer .footer-icons .footer-icon-plus .fas{
+		color: #4d10ea;
+		background-color: #fff;
+		padding: 0px 10px 10px;
+    	border-bottom-left-radius: 35px;
+    	border-bottom-right-radius: 35px;
+	}
+	.dashboard .footer .footer-icons {
+		position: relative;
+	}
+	.dashboard .footer .footer-icons .footer-icon-plus{
+		position: absolute;
+		left: 45%;
+		right: 45%;
+		top: -20px;
+	}
+
+/*------Setup Company---------*/
+
+	.setup{
+		padding: 90px 0px;
+	}
+	.setup .setup-company {
+		border: 3px solid #4d10ea;
+		text-align: center;
+		padding: 10px 0px;
+		border-radius: 40px;
+		margin-bottom: 30px;
+	}
+	.setup .setup-company h1{
+		color: #4d10ea;
+	}
+	.setup .tick {
+		text-align: center;
+		margin: 30px;
+	}
+	.setup .tick .fas{
+		background-color: #4d10ea;
+		color: #ffffff;
+		padding: 10px;
+		font-size: 66px;
+		border-radius: 50%;
+
+	}
+/*------  TEAM  ---------*/
+
+	.import-data .from-excel p{
+		color: #145b05;
+
+	}
+	.import-data {
+		padding: 100px 30px 0px;
+	}
+	.import-data .from-excel h4{
+		color: #455e0b;
+	}
+	.import-data .data-fields{
+		display: flex;
+		margin-bottom: 30px;
+	}
+	.import-data .data-fields .name-field{
+		border: 5px solid #4d10ea;
+		text-align: center;
+		color: #4d10ea;
+		margin-right: 15px;
+		border-radius: 60px;
+	}
+	
+	.import-data .data-fields .name-field h1{
+		padding: 15px 0px;
+	}
+	@media screen and (max-width: 991px){
+			.import-data .data-fields .name-field h1{
+				padding: 30px;
+				font-size: 28px;
+			}
+	}
+	.import-data .data-fields .add-more-data .fas{
+		font-size: 64px;
+		color: #4d10ea;
+		padding-top: 15px;
+	}
+	.import-data .data-fields .name-field-email{
+		margin-right: 0px;
+	}
+	.import-data .data-fields-main{
+		padding-top: 30px;
+	}
+	.checked .tick{
+
+	}
+	/*----category-page-----*/
+
+	.category .category-edit{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.category .category-edit button{
+		background-color: #4d10ea;
+		color: #fff;
+		padding: 10px 32px;
+		border: none;
+		border-radius: 15px;
+	}
+	.category{
+		padding: 60px 20px;
+	}
+	.category .category-main .name-field{
+		margin-bottom: 10px;
+	}
+	.category .category-main{
+		padding: 50px 0px;
+	}
+/*------category sub heading--------*/
+	.import-data .data-fields .name-field input{
+		border: none;
+		font-size: 36px;
+		width: 50%;
+		background: transparent;
+		padding: 15px 0px;
+		color: #a39acd;
+	}
+	@media screen and (max-width:991px){
+	.import-data .data-fields .name-field input::placeholder{
+		font-size: 28px;
+	}
+
+	}
+
+	.import-data .data-fields .name-field .fas{
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: #fff;
+		background-color: #ff0000;
+		padding: 5px;
+		border-radius: 10px;
+	}
+	.category .category-main .name-field{
+		position: relative;
+	}
+	.category .category-main .name-field-input{
+		border: none;
+		background-color: #cac9cd;
+	}
+
+	/*----new category page----*/
+	.modal-header{
+		display: block;
+	}
+	.modal-header .dashboard .dashboard-head .dashboard-head-inner img{
+		width: 50%;
+		margin-top: -15px;
+		padding: 0px;
+	}
+	.modal-header{
+		border-bottom: none;
+	}
+	.modal-body .dashboard .footer .footer-icons .footer-icon-plus{
+		left: 45%;
+		right: 45%;
+	}
+	.modal-body .setup{
+		padding: 50px 0px;
+	}
+	/*-------setup-bank------*/
+	.dashboard-head-inner .team-head .setup-bank-head{
+		padding: 0px;
+	}
+	.upload-button{
+		margin: auto ;
+	}
+	.upload-button button{
+		background-color: #4d10ea;
+		padding: 10px;
+		color: #fff;
+		border: none;
+		font-size: 24px;
+	}
+	.upload-or h1{
+		color: #4d10ea;
+		padding: 20px 0px;
+		text-align: center;
+	}
+	.signature{
+		position: relative;
+		margin-bottom: 30px;
+	}
+	.signature input{
+		padding: 90px 0px 15px;
+		text-align: center;
+		font-size: 26px;
+		background-color: #e5e2ed;
+		border: none;
+		border-radius: 50px;
+		color: #4d10ea;
+	
+	}
+	.signature input::placeholder{
+		color: #4d10ea;
+	}
+	.signature .edited p{
+		background-color: #4d10ea;
+		color: #fff;
+		padding: 5px 10px;
+		text-decoration: none;
+	}
+	.signature .edited p a{
+		text-decoration: none;
+	}
+
+	.signature .edited{
+		position: absolute;
+		right: 30px;
+		top: 15px;
+	}
+
+	/*---securityyyy------------*/
+	.dashboard .dashboard-head .security img{
+		padding: 10px 100px 0px;
+		margin-top: 0px;
+	}
+	@media screen and (max-width: 991px){
+		.dashboard .dashboard-head .security img{
+			padding: 20px !important;
+		}
+
+	}
+	.mr-test{
+		padding: 50px 0px;
+	}
+	.mr-test .mr-test-image img{
+		width: 50%;
+	}
+	.mr-test .mr-test-image{
+		text-align: center;
+		position: relative;
+	}
+	.mr-test .mr-test-image h1{
+		padding-top: 30px;
+	}
+	.mr-test .mr-test-image .upload-image{
+		position: absolute;
+		right: 0;
+		bottom: 80px;
+	}
+	.mr-test .mr-test-image .upload-image button{
+		background-color: #4d10ea;
+		padding: 10px;
+		color: #fff;
+		border: none;
+		font-size: 24px;
+	}
+	.security-check .setup-company input{
+		width: 90%;
+		border: none;
+		padding: 10px;
+		font-size: 24px;
+		outline: none;
+		color: #4d10ea;
+		
+	}
+	.security-check .setup-company input::placeholder{
+		color: #4d10ea;
+		font-size: 24px;
+		font-weight: bold;
+
+	}
+	.cheque .setup-company{
+		background-color: #4d10ea;
+		margin-bottom: 400px;
+
+	}
+	.cheque .setup-company h1{
+		color: #ffffff;
+	}
+	.generate-chck{
+		margin-bottom: 500px;
+	}
+	.generating-cheque .setup-company{
+		background-color: #4d10ea;
+	}
+	.generating-cheque .setup-company h1{
+		color: #fff;
+	}
+	.generating-cheque .generate-check{
+		background-color: #fff;
+		border: none;
+	}
+	.generating-cheque .generate-check h1{
+		color: #4d10ea;
+	}
+	.Cheque-with-design{
+		background-color:  #4d10ea;
+		text-align: center;
+		padding: 75px 0px;
+		border-radius: 10px;
+	}
+	.Cheque-with-design h2{
+		color: #fff;
+	}
+	.save-cheque{
+		padding: 30px 0px;
+	}
+	.save-cheque button{
+		border: none;
+		background-color:  #4d10ea;
+		color: #fff;
+		padding: 20px 40px;
+		border-radius: 10px;
+	}
+	.dashboard .dashboard-head .setup-bank-head{
+		background-color: #fff;
+		text-align: center;
+		    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+	}
+	.dashboard .dashboard-head .setup-bank-head .setup-bank-head-img{
+		padding: 20px 10px;
+	}
+	.generate-cheque-main{
+		margin-bottom: 500px;
+	}
